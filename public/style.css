@@ -1,8 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  /* display: flex; */
+  /* top: 10px; */
+  flex: 1;
+  min-height: 50px;
+  /* min-width: 100%; */
+  background-color: red;
+}
+
+.logo {
+  /* position: absolute; */
+}
+
 
 
 #map {
-margin-left: 200px;
-  height: 50vh;
-  width: 50vw;
+  flex: 1;
+  /* position: relative; */
+  /* margin-left: 200px; */
+  height: 90vh;
+  width: 90vw;
 }
 
